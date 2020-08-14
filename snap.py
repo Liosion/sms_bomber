@@ -9,5 +9,5 @@ snapD = {"cellphone":phone}
             print ("sended sms:)")
         else:
             print ("Error!")
-	catch:
-	    return0;
+    except:
+	    print ("Error!")

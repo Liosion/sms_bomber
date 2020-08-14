@@ -3,7 +3,7 @@ import time
 import requests
 from threading import Thread
 
-proxy = {"https": "127.0.0.1:8000"}
+proxy = {"https": "127.0.0.1:9050"}
 
 def snap(phone):
     #snap api

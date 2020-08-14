@@ -3,6 +3,6 @@ SMS Bomber
 
 Using 
 
-git clone https://github.com/Liosion/sms_bomber
-cd sms_bomber
-python sms_bomber.py
+git clone https://github.com/Liosion/sms_bomber</br>
+cd sms_bomber</br>
+python sms_bomber.py</br>

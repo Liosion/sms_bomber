@@ -1,6 +1,7 @@
 import requests
 import os
 import time
+from requests.exceptions import HTTPError
 
 os.system('cls' if os.name=='nt' else 'clear')
 phone = input("Set Your Number Via +98==>\n\r")
@@ -14,5 +15,6 @@ def snap(phone):
         print("Sended")
     else:
         print("Fuck!")
-  except:
-    time.sleep(60)
+   except HTTPError:
+    time.sleep(5)
+ return snapR

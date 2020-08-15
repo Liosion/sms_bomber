@@ -8,7 +8,7 @@ snapH = {"x-app-name":"passenger-android", "Package-Name":"cab.snapp.passenger.p
 snapD = {"cellphone":phone}
 snapR = requests.post("https://oauth-passenger.snapp.site/v2/otp", headers=snapH, json=snapD)
 snapp = snapR.text
-    if "OK" in snapp:
-        print("Sended")
-    else:
-        print("Fuck!")
+if "OK" in snapp:
+   print("Sended")
+else:
+   print("Fuck!")

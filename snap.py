@@ -20,7 +20,7 @@ snapH = {
 snapD = {"cellphone":phone}
 
 for _ in range(0,mount):
-      snapR = requests.post("https://oauth-passenger.snapp.site/v2/otp", headers=snapH, json=snapD)
+      requests.post("https://oauth-passenger.snapp.site/v2/otp", headers=snapH, json=snapD)
       snapp = snapR.text
       if "OK" in snapp:
           print("Sended")
